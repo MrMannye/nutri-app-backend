@@ -7,11 +7,11 @@ import com.nutri.app.entity.Appointment;
 public interface IAppointmentService {
     void createAppointment(Appointment appointment);
 
-    void updateAppointment(Long id, Appointment appointment);
+    void updateAppointment(Integer id, Appointment appointment);
 
-    void deleteAppointment(Long id);
+    void deleteAppointment(Integer id);
 
-    Appointment getAppointment(Long id);
+    Appointment getAppointment(Integer id);
 
     List<Appointment> getAllAppointments();
 }
