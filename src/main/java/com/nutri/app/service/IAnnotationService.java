@@ -7,11 +7,11 @@ import com.nutri.app.entity.Annotation;
 public interface IAnnotationService {
     void createAnnotation(Annotation annotation);
 
-    void updateAnnotation(Long id, Annotation annotation);
+    void updateAnnotation(Integer id, Annotation annotation);
 
-    void deleteAnnotation(Long id);
+    void deleteAnnotation(Integer id);
 
-    Annotation getAnnotation(Long id);
+    Annotation getAnnotation(Integer id);
 
     List<Annotation> getAllAnnotations();
 }
